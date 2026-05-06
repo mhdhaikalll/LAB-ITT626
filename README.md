@@ -38,13 +38,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. Do migration (if needed)
+5. Generate the application key
+
+```cmd
+php artisan key:generate
+```
+
+6. Do migration (if needed)
 
 ```cmd
 php artisan migrate
 ```
 
-5. Run this project
+7. Run this project
 
 ```cmd
 npm run dev
